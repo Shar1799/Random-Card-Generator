@@ -1,1 +1,35 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+
+body {
+  background: green;
+}
+
+.carta {
+  display: inline-block;
+  margin: auto;
+  height: 400px;
+  width: 250px;
+  background: white;
+  padding: 20px;
+  border-radius: 20px;
+  position: relative;
+}
+
+.parteSuperior {
+  font-size: 60px;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+
+.parteInferior {
+  font-size: 60px;
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+}
+
+.numero {
+  font-size: 60px;
+  line-height: 350px;
+}
